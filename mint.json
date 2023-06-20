@@ -51,6 +51,14 @@
       ]
     },
     {
+      "group": "Overviews",
+      "pages": [
+        "overview/editor-ui",
+        "features/chat-ui",
+        "features/dashboard-ui"
+      ]
+    },
+    {
       "group": "User",
       "pages": ["user/registration", "user/upgrade", "user/delete"]
     },
