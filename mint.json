@@ -2,20 +2,20 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "CodeWP Product Documentation",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/codewp-01.svg",
+    "light": "/logo/codewp-01.svg"
   },
-  "favicon": "/favicon.png",
+  "favicon": "/codewp-01.svg",
   "colors": {
     "primary": "#12A7D3",
     "light": "#81D7F7",
     "dark": "#004E7A"
   },
   "topbarLinks": [
-    { "name": "home", "url": "https://codewp.ai" },
+    { "name": "Home", "url": "https://codewp.ai" },
     {
-      "name": "Documentation",
-      "url": "https://mintlify.com/docs"
+      "name": "Docs",
+      "url": "https://docs.codewp.ai"
     }
   ],
   "topbarCtaButton": {
@@ -26,6 +26,10 @@
     {
       "name": "API Reference",
       "url": "api-reference"
+    },
+    {
+      "name": "Guides",
+      "url": "guides"
     }
   ],
   "navigation": [
@@ -55,7 +59,11 @@
     },
     {
       "group": "API Documentation",
-      "pages": ["api-reference/authentication"]
+      "pages": [
+        "api-reference/ai",
+        "api-reference/snippets",
+        "api-reference/users"
+      ]
     },
     {
       "group": "Endpoint Examples",
