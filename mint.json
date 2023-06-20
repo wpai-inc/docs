@@ -24,12 +24,12 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
-    },
-    {
       "name": "Guides",
       "url": "guides"
+    },
+    {
+      "name": "API Reference",
+      "url": "api-reference"
     }
   ],
   "navigation": [
@@ -43,10 +43,11 @@
         "features/generate",
         "features/edit",
         "features/chat",
+        "features/vision",
         "features/projects",
         "features/packages",
         "features/share",
-        "features/agnecy"
+        "features/collaboration"
       ]
     },
     {
