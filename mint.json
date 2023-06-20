@@ -28,8 +28,8 @@
       "url": "guides"
     },
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "API",
+      "url": "api"
     }
   ],
   "navigation": [
@@ -51,6 +51,10 @@
       ]
     },
     {
+      "group": "User",
+      "pages": ["user/registration", "user/upgrade", "user/delete"]
+    },
+    {
       "group": "Guides",
       "pages": [
         "guides/make-snippet",
@@ -60,20 +64,11 @@
     },
     {
       "group": "API Documentation",
-      "pages": [
-        "api-reference/ai",
-        "api-reference/snippets",
-        "api-reference/users"
-      ]
+      "pages": ["api/ai", "api/snippets", "api/users"]
     },
     {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
-      ]
+      "group": "Endpoints",
+      "pages": ["api/endpoint/package-files"]
     }
   ],
   "footerSocials": {
