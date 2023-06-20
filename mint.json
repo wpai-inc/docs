@@ -64,7 +64,7 @@
     },
     {
       "group": "API Documentation",
-      "pages": ["apis/ai", "apis/snippets", "apis/users"]
+      "pages": ["apis/introduction", "apis/ai", "apis/snippets", "apis/users"]
     },
     {
       "group": "Endpoints",
