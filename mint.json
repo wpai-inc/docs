@@ -53,6 +53,7 @@
     {
       "group": "Overviews",
       "pages": [
+        "overview/introduction",
         "overview/editor-ui",
         "features/chat-ui",
         "features/dashboard-ui"
