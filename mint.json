@@ -55,8 +55,8 @@
       "pages": [
         "overview/introduction",
         "overview/editor-ui",
-        "features/chat-ui",
-        "features/dashboard-ui"
+        "overview/chat-ui",
+        "overview/dashboard-ui"
       ]
     },
     {
