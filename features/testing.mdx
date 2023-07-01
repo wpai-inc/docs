@@ -1,0 +1,32 @@
+---
+title: "Testing"
+description: "Testing code snippets and packages"
+---
+
+It's important to test AI generated code to ensure that it's working as expected, _beofre_ you deploy it to production. CodeWP ships with built in testing tools for Pro users. In this guide, we'll show you how to use them, and cover general testing best practices.
+
+## Pro Testing Features
+
+We make it easy to test code snippets and packages with a built in testing tool. Here's how to use it.
+
+### Testing Code Snippets
+
+To test a code snippet, click the "Test" button in the top right corner of the code editor. This will open a popup which will contain a fully-functional version of WordPress, with your code snippet installed and activated (using the free Code Snippets plugin). This is a great way to verify that the code will work on the most up-to-date version of the CMS. The installation also includes a helpful plugin called [Query Monitor](https://wordpress.org/plugins/query-monitor/), which will help you debug any issues that may arise. And, because it's a fully functional version of WordPress, you can install any other plugins to check for conflicts.
+
+### Testing Packages
+
+To test a package, follow the same steps. Instead of using the Code Snippets plugin, the package will be installed as a theme or a plugin, depending on the package type. We'll also install the File Manager plugin, which will allow you to edit the package files directly from the WordPress admin.
+
+---
+
+This testing playground is built using the **WordPress Playground OSS project**, which allows you to run a browser-based version of WP. The enviorment will expire at the end of the day and should not be used for production purposes.
+
+## General Testing Guidence
+
+If you're on the free plan and don't have access to the built in testing tools, you can still test your code. Here are some general guidelines to follow.
+
+Spin up a testing site using something like LocalWP or InstaWP. This will allow you to test your code in a safe environment, without affecting your production site. You can also use a staging site if you have one available.
+
+If you're testing a code snippet, you can use the free Code Snippets plugin to install it. If you're testing a package, you can install it as a theme or a plugin, depending on the package type.
+
+If you're testing a package, you can use the File Manager plugin to edit the package files directly from the WordPress admin. This will allow you to make changes to the package without having to re-generate it.

@@ -47,7 +47,8 @@
         "features/projects",
         "features/packages",
         "features/share",
-        "features/collaboration"
+        "features/collaboration",
+        "features/testing"
       ]
     },
     {
