@@ -64,6 +64,14 @@
       "pages": ["user/registration", "user/upgrade", "user/delete"]
     },
     {
+      "group": "Other",
+      "pages": [
+        "other/keyboard-shortcuts",
+        "other/multilingual",
+        "other/platform-themes"
+      ]
+    },
+    {
       "group": "Guides",
       "pages": [
         "guides/make-snippet",
