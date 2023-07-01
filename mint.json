@@ -42,9 +42,10 @@
       "pages": [
         "features/create",
         "features/chat",
-        "features/vision",
+        "features/modes-packages",
         "features/projects",
         "features/packages",
+        "features/vision",
         "features/share",
         "features/collaboration",
         "features/testing"
