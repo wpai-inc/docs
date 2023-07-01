@@ -44,7 +44,6 @@
         "features/chat",
         "features/modes-packages",
         "features/projects",
-        "features/packages",
         "features/vision",
         "features/share",
         "features/collaboration",
