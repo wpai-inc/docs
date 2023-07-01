@@ -55,3 +55,15 @@ You can ask CodeWP to explain any code snippet to you. It will give you a summar
 You can also ask CodeWP to review security, performance, and other aspects of your code. And, just like the editing feature, you can use this to review code from external sources as well.
 
 ## Multi File Support
+
+WordPress code typically consists of multiple files. For example, a plugin may have a main plugin file, a readme file, and a license file. CodeWP supports multi-file code generation, and can generate code in multiple languages.
+
+When using multiple files, CodeWP creates a package to hold them together. This package can be downloaded as a zip file, and used as a plugin or theme. You can edit various metadata fields for the package, such as the name, description, and version.
+
+### Automatic Support
+
+When generating code, if CodeWP detects that you need multiple files, it will automatically generate them for you. For example, if you want to create a form shortcode, it will generate the shortcode function, the form HTML, JS, and CSS for the form.
+
+### Manual Support
+
+You can also manually create a package of multiple files. To do this, simply create a new file, and then ask CodeWP to add it to the package. You can also ask CodeWP to remove files from the package, or to generate a new file.
