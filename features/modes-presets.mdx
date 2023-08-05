@@ -1,4 +1,45 @@
 ---
 title: "Modes & Presets"
-description: "Overview of CodeWP's AI Collaboration features for Agencies."
+description: "A look into how CodeWP modes and presets can be used in code and chat responses."
 ---
+
+One of the _most_ important features of CodeWP are plugin-specific Modes and Presets. These are used to tailor the output of AI generations to specific use cases, and can be used in both code and chat responses. Using a mode tells our AI to focus on a specific use case, and using a preset tells our AI to focus on a specific type of output.
+
+## Modes
+
+There are a myriad of popular plugins for WordPress and each has it's own unique codebase, settings, and use cases. Plugins are typically updated with regualrity and new features are added often. This means that the AI needs to be able to adapt to these changes and be able to generate code that is relevant to the plugin being used.
+
+Generalist AI tools like ChatGPT fall short in this regard, as they don't possess up to date knowledge of the plugin you're tying to generate code for / ask questions about. In the best case scenario, you'll get a generic response that may or may not be relevant to your use case. In the worst case scenario, you'll get a response that is completely incorrect, and may brick your site if implemented.
+
+CodeWP solves this issue with Modes. Under the hood, a mode leverages a fine-tuned LLM model trained on the codebase and documentation of a specific plugin. This means that the AI has up to date knowledge of the plugin you're using, and can generate code and answers that are hyper-relevant to your use case. This is a huge advantage over generalist AI tools, and is the reason why CodeWP is able to generate such high quality code and answers for plugins like WooCommerce, Elementor, and more.
+
+## Presets
+
+Presets further tune the output to a specific type of response. For example, if you're looking to add a new Gutenberg block using ACF, you can select the ACF mode, then the Gutenberg block preset.
+
+The AI then enters a predefined state with additional context and knowledge about the type of response you're looking for. It'll ask you questions to gather the information it needs to generate code for the functionality you're trying to achieve, generate the required files, and double check it against known best practices for that specific situation.
+
+Some presets include:
+
+- WooCommerce -> Add a new product type
+- WooCommerce -> Add a new payment gateway
+- ACF -> Add a new Gutenberg block
+- ACF -> Add a new field type
+- WordPress -> Add a new dashboard widget
+  And many more.
+
+## Using Modes & Presets
+
+You can use modes in chat and code responses. You can use presets in code responses only.
+
+For modes, simply click the Mode dropdown, search for the plugin you're using, and select it. The same UI is used for both chat and code responses.
+
+Presets are dependent on modes, so first choose the mode, and then choose the preset.
+
+## Requesting New Modes & Presets
+
+We're always looking to add new modes and presets to CodeWP. If you'd like to request a new mode or preset, please [contact us](/contact) and let us know.
+
+In the future, we'll be adding the ability to use multiple modes at once (great for plugins that work together, like WooCommerce and Elementor), and the ability to create your own custom presets.
+
+For agency plans, we'll also soon add the ability to create custom modes based off of your own codebases.

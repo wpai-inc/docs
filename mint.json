@@ -12,7 +12,10 @@
     "dark": "#15a65b"
   },
   "topbarLinks": [
-    { "name": "Home", "url": "https://codewp.ai" },
+    {
+      "name": "Home",
+      "url": "https://codewp.ai"
+    },
     {
       "name": "Docs",
       "url": "https://docs.codewp.ai"
@@ -35,14 +38,17 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart"]
+      "pages": [
+        "introduction",
+        "quickstart"
+      ]
     },
     {
       "group": "Features",
       "pages": [
         "features/create",
         "features/chat",
-        "features/modes-packages",
+        "features/modes-presets",
         "features/projects",
         "features/vision",
         "features/share",
@@ -61,7 +67,11 @@
     },
     {
       "group": "User",
-      "pages": ["user/registration", "user/upgrade", "user/delete"]
+      "pages": [
+        "user/registration",
+        "user/upgrade",
+        "user/delete"
+      ]
     },
     {
       "group": "Other",
@@ -81,11 +91,18 @@
     },
     {
       "group": "API Documentation",
-      "pages": ["apis/introduction", "apis/ai", "apis/snippets", "apis/users"]
+      "pages": [
+        "apis/introduction",
+        "apis/ai",
+        "apis/snippets",
+        "apis/users"
+      ]
     },
     {
       "group": "Endpoints",
-      "pages": ["apis/endpoint/package-files"]
+      "pages": [
+        "apis/endpoint/package-files"
+      ]
     }
   ],
   "footerSocials": {
